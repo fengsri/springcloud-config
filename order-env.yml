@@ -16,3 +16,6 @@ spring:
     password: guest
   jpa:
     show-sql: true
+
+env: 
+  name: fengwen
