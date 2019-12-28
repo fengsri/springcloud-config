@@ -1,7 +1,7 @@
 eureka:
   instance:
     prefer-ip-address: true
-    ip-address: ${ip.address}:${server.port}
+    ip-address: ${ip.address}
   client:
     service-url:
       defaultZone: http://192.168.183.133:8761/eureka/,http://192.168.183.142:8761/eureka/
